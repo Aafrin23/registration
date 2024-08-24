@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://f onts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+   
+    <form id="registrationForm">
+        <h2 class>Registration Form</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <div id="nameError" class="error"></div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <div id="emailError" class="error"></div>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <div id="passwordError" class="error"></div>
+
+        <button type="submit" id="submitBtn" disabled>Submit</button>
+    </form>
+
+    
+</body>
+</html>
+<script src="script.js"></script>
